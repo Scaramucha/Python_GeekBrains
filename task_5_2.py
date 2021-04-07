@@ -1,0 +1,5 @@
+my_generator = (num for num in range(50) if num % 2 != 0)
+print(next(my_generator))
+print(next(my_generator))
+print(next(my_generator))
+print(next(my_generator))
